@@ -1,4 +1,4 @@
-package com.eugenedevv.shoppinglist
+package com.eugenedevv.shoppinglist.data
 
 import android.content.Context
 import androidx.room.Database

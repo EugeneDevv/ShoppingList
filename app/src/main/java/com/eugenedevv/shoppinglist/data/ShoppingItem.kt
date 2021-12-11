@@ -1,4 +1,4 @@
-package com.eugenedevv.shoppinglist
+package com.eugenedevv.shoppinglist.data
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
