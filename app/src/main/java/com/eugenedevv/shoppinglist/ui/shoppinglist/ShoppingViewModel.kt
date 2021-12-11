@@ -14,5 +14,5 @@ class ShoppingViewModel(private val repository: ShoppingRepository) : ViewModel(
     fun delete(item: ShoppingItem) = CoroutineScope(Dispatchers.Main).launch {
         repository.delete(item)
     }
-    fun getAllItems() = repository.getAllShoppingItems()
+    fun getAllShoppingItems() = repository.getAllShoppingItems()
 }
