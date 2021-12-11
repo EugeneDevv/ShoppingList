@@ -6,6 +6,7 @@ import com.eugenedevv.shoppinglist.data.db.entities.ShoppingItem
 
 @Dao
 interface ShoppingDao {
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsert(item: ShoppingItem)
 
